@@ -1,0 +1,321 @@
+@media (max-width: 1366px){
+    .header {
+        height: 70px;
+    }
+    .logo {
+        transform: scale(0.8);
+    }
+    .nav {
+        transform: scale(0.8);
+    }
+    .nav-item {
+    }
+    .search {
+    }
+    .serach-txt {
+    }
+    .search-btn {
+    }
+    .profile {
+    }
+    .sidenav {
+        transform: scale(0.8);
+    }
+    .tabs {
+        font-size: 12px;
+    }
+    .content-block img{
+        height: 250px;
+    }
+    .content-block{
+        height: 350px;
+    }
+    .cnt-txt {
+    }
+    .title {
+        font-size: 12px;
+    }
+    .txt {
+        padding-top: 20px;
+        font-size: 10px;
+    }
+    .cnt-btn {
+        padding-top: 20px;
+        font-size: 12px;
+    }
+    .auth {
+        transform: scale(0.9);
+    }
+    .auth img{
+        height: 50px;
+    }
+    .auth-txt {
+    }
+    .auth-btn {
+    }
+
+}
+    
+    @media (max-width:1152px) {
+        .content-block img {
+          height: 230px;
+        }
+      
+      .txt {
+          padding-top: 17px;
+          font-size: 9px;
+      }
+
+      }
+      
+      
+@media (max-width:1152px) {
+        .content-block img {
+          height: 210px;
+        }
+      
+        .cnt-txt {
+          padding-left: 26px;
+      }
+      
+      .txt {
+        font-size: 9px;
+      }
+
+    }
+
+@media (min-width:1064px) {
+    .menu-btn {
+        display: none;
+    }
+}
+
+@media (max-width:1065px) {
+    .sidenav {
+        display: none;
+    }
+}
+
+
+@media (max-width:1064px) {
+    .logo > img {
+        padding-left: 0;
+        margin-right: 0;
+    }
+
+    .sidenav.menu-sidenav{
+        display: block;
+    }
+    .sidenav {
+        transform: scale(1);
+    }
+    .tabs {
+        margin-left: 0;
+    }
+
+    .header {
+        z-index: 800;
+    }
+
+     .menu-btn {
+        z-index: 997;
+    }
+
+    .menu.active {
+       z-index: 993;
+    }
+    
+    .logo {
+        display: none;
+    }
+}
+
+@media (max-width:720px) {
+
+    .content-block {
+        flex-direction: column;
+        height: 430px;
+    }
+
+    .content-block img {
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+    .tabs>label{
+        transform: scale(0.9);
+        padding-left: 10px;
+       padding-right: 10px;
+    }
+
+    .tabs>label:hover {
+       padding-left: 10px;
+       padding-right: 10px;
+    }
+}
+
+@media (max-width:680px) {
+    .tabs {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .tabs>div {
+        padding: 0;
+    }
+
+    .auth img {
+        height: 148px;
+    }
+    .content-block {
+        border-radius: 38px;
+    }
+
+   
+
+}
+
+@media (max-width:550px) {
+    .auth img {
+        height: 110px;
+    }
+
+    .txt {
+        font-size: 10px;
+    }
+
+    .sidenav {
+        transform: scale(1);
+    }
+}
+
+@media (max-width:490px) { 
+
+    .search {
+        padding: 15px;
+     }
+
+     .tabs>label {
+        font-size: 13px;
+     }
+    
+}
+
+@media (max-width:450px) { 
+    .tabs>label:hover {
+        padding-left: 9px;
+        padding-right: 9px;
+     }
+
+     .tabs>label {
+        font-size: 11px;
+     }
+    }
+   
+/* .resorts */ 
+
+@media (max-width:1490px) {
+    .resorts {
+        grid-template-columns: 200px 200px;
+        grid-template-rows: 150px 150px;
+        grid-gap: 328px 150px;
+        padding-left: 252px;
+    }
+}
+
+@media (max-width:1288px) {
+    .resorts {
+        padding-left: 128px;
+    }
+}
+
+@media (max-width:1174px) {
+    .resorts {
+        padding-left: 79px;
+    }
+}
+
+
+@media (max-width:1164px) {
+    .resorts { 
+        margin-left: 255px;
+    }
+}
+
+@media (max-width:952px) {
+    .resorts {
+       
+        margin-left: 47px;
+    }
+}
+
+@media (max-width:866px) {
+    .resorts {
+       
+        margin-left: 11px;
+    }
+}
+
+@media (max-width:810px) {
+    .resorts {
+       
+        margin-left: -31px;
+    }
+}
+
+@media (max-width:762px) {
+    .resorts {
+        display: block;
+        margin-left: 146px;
+    }
+}
+
+@media (max-width:684px) {
+    .resorts {
+
+        margin-left: 93px;
+    }
+}
+
+@media (max-width:606px) {
+    .resorts {
+        margin-left: 35px;
+    }
+}
+
+@media (max-width:526px) {
+    .resorts {
+        margin-left: 3px;
+    }
+}
+
+@media (max-width:460px) {
+    .resorts {
+        margin-left: -28px;
+    }
+}
+
+@media (max-width:416px) {
+    .resorts {
+        margin-left: -56px;
+    }
+}
+
+@media (max-width:390px) {
+    .resorts {
+        margin-left: -63px;
+    }
+}
+
+@media (max-width:370px) {
+    .resorts {
+        margin-left: -74px;
+    }
+}
+
+
+
+
+
+
+

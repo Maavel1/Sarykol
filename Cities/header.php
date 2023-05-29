@@ -28,7 +28,7 @@
         <div class="menu">
             <nav>
               <div class="sidenav menu-sidenav">
-                <a href="cities.html"><img src="img/city.png" alt=""> ГОРОДА</a>
+                <a href="cities.php"><img src="img/city.png" alt=""> ГОРОДА</a>
                 <a href="resorts.html"><img src="img/umbrella.png" alt=""> КУРОРТЫ</a>
                 <a href="monument.html"><img src="img/footprint.png" alt=""> ЗАПОВЕДНИКИ</a>
                 <a href="monument.html"><img src="img/monument.png" alt=""> ПАМЯТНИКИ</a>
@@ -47,50 +47,3 @@
              </div>
         </div>
     </div>
-    <div class="sidenav">
-    <a href="cities.html" style="background-color: #34374d;"><img src="img/city.png" alt=""> ГОРОДА</a>
-    <a href="resorts.html"><img src="img/umbrella.png" alt=""> КУРОРТЫ</a>
-    <a href="park.html"><img src="img/footprint.png" alt=""> ЗАПОВЕДНИКИ</a>
-    <a href="monument.html"><img src="img/monument.png" alt=""> ПАМЯТНИКИ</a>
-    </div>
-    <div class="resorts">
-        <a href="card.php" class="city-card">
-            <img src="img/c1.jpg" alt="">
-            <div class="c-title">Астана</div>
-        </a>
-        <a href="" class="city-card">
-            <img src="img/c2.jpg" alt="">
-            <div class="c-title">Алматы</div>
-        </a>
-        <a href="" class="city-card">
-            <img src="img/c3.jpg" alt="">
-            <div class="c-title">Актау</div>
-        </a>
-        <a href="" class="city-card">
-            <img src="img/c4.jpg" alt="">
-            <div class="c-title">Туркестан</div>
-        </a>
-        <a href="" class="city-card">
-            <img src="img/c1.jpg" alt="">
-            <div class="c-title">Астана</div>
-        </a>
-        <a href="" class="city-card">
-            <img src="img/c2.jpg" alt="">
-            <div class="c-title">Алматы</div>
-        </a>
-        <a href="" class="city-card">
-            <img src="img/c3.jpg" alt="">
-            <div class="c-title">Актау</div>
-        </a>
-        <a href="" class="city-card">
-            <img src="img/c4.jpg" alt="">
-            <div class="c-title">Туркестан</div>
-        </a>
-        <a href="" class="city-card">
-            <img src="img/c4.jpg" alt="">
-            <div class="c-title">Туркестан</div>
-        </a>
-    </div>
-    <script src="js/main.js"></script>
-</body>
-</html>

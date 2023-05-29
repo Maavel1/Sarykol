@@ -30,6 +30,14 @@ a{
 
 /* Burger */
 
+.img-home-sidebar {
+  fill: #f46d25;
+}
+
+.home-link {
+  font-size: 17px;
+}
+
 .menu-btn {
   padding-left: 80px;
 	width: 30px;

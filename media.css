@@ -187,6 +187,10 @@
     .sidenav {
         transform: scale(1);
     }
+
+    .nav-item {
+        margin: 10px;
+    }
 }
 
 @media (max-width:490px) { 
@@ -211,6 +215,8 @@
         font-size: 11px;
      }
     }
+
+
    
 /* .resorts */ 
 

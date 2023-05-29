@@ -16,7 +16,7 @@
     <title>Главная</title>
 </head>
 <body>
-  <?php 123?>
+  
     <div class="header">
       <div class="menu-btn">
         <span></span>
@@ -97,7 +97,7 @@
               <a href="https://ulysmedia.kz/ulys-travel/16350-turisty-kakikh-stran-chashche-vsego-poseshchaiut-kazakhstan/">ПОДРОБНЕЕ</a>
             </div>
           </div>
-            
+          <?php 123?>
 
           </div>
           <div class="content-block">

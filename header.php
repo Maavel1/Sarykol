@@ -31,6 +31,7 @@
         <div class="menu">
           <nav>
             <div class="sidenav menu-sidenav">
+            <a class="home-link" href="index.php"><img class="img-home-sidebar" src="img/home-icon.png" alt="">Главная</a>
               <a href="cities.html"><img src="img/city.png" alt=""> ГОРОДА</a>
               <a href="resorts.html"><img src="img/umbrella.png" alt=""> КУРОРТЫ</a>
               <a href="monument.html"><img src="img/footprint.png" alt=""> ЗАПОВЕДНИКИ</a>

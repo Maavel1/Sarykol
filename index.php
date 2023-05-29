@@ -16,6 +16,7 @@
     <title>Главная</title>
 </head>
 <body>
+  <?php 123 ?>
     <div class="header">
       <div class="menu-btn">
         <span></span>

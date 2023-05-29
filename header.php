@@ -33,9 +33,15 @@
             <div class="sidenav menu-sidenav">
             <a class="home-link" href="index.php"><img class="img-home-sidebar" src="img/home-icon.png" alt="">Главная</a>
               <a href="cities.php"><img src="img/city.png" alt=""> ГОРОДА</a>
+<<<<<<< HEAD
               <a href="resorts.html"><img src="img/umbrella.png" alt=""> КУРОРТЫ</a>
               <a href="monument.html"><img src="img/footprint.png" alt=""> ЗАПОВЕДНИКИ</a>
               <a href="monument.html"><img src="img/monument.png" alt=""> ПАМЯТНИКИ</a>
+=======
+              <a href="cities.php"><img src="img/umbrella.png" alt=""> КУРОРТЫ</a>
+              <a href="cities.php"><img src="img/footprint.png" alt=""> ЗАПОВЕДНИКИ</a>
+              <a href="cities.php"><img src="img/monument.png" alt=""> ПАМЯТНИКИ</a>
+>>>>>>> b534bf77ec0e0747c8dcb6ff673ea707af4b936e
               </div>
           </nav>
         </div>

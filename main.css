@@ -14,10 +14,7 @@ body{
     text-decoration: none;
 }
 
-img {
-  width:100%;
-  object-fit:cover;
-}
+
 a{
     color: white;
 }

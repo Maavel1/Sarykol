@@ -107,7 +107,7 @@
             <div class="auth">
               <img src="img/lock.png" alt="">
               <div class="auth-txt">Вы не авторизованы</div>
-              <div class="auth-btn"><a href="#">Авторизация</a></div>
+              <div class="auth-btn"><a href="profile.html">Авторизация</a></div>
             </div>
           </div>
         </div>

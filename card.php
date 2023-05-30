@@ -8,7 +8,7 @@
 
         foreach ($cities as $city): ?>
 
-        <img src="" alt="">
+        <img src="<?php echo $city["image"]?>" alt="">
         <div class="card-title">
 
         </div>

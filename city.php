@@ -1,5 +1,5 @@
 <div class="resorts">
-        <a href="card.php" class="city-card">
+        <a href="test.php" class="city-card">
             <img src="img/c1.jpg" alt="">
             <div class="c-title">Астана</div>
         </a>

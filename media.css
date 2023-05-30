@@ -7,8 +7,6 @@
     }
 }
 
-
-
 @media (max-width: 1366px){
     .header {
         height: 70px;
@@ -111,17 +109,10 @@
         display: none;
     }
 
-    .logo > img {
-        padding-left: 0;
-        margin-right: 0;
-    }
+ 
+}
 
-    .sidenav.menu-sidenav{
-        display: block;
-    }
-    .sidenav {
-        transform: scale(1);
-    }
+@media (max-width:1064px) {
     .tabs {
         margin-left: 0;
     }
@@ -141,7 +132,21 @@
     .logo {
         display: none;
     }
+
+    .logo > img {
+        padding-left: 0;
+        margin-right: 0;
+    }
+
+    .sidenav.menu-sidenav{
+        display: block;
+    }
+    .sidenav {
+        transform: scale(1);
+    }
 }
+
+
 
 @media (max-width:952px) {
     .resorts {
@@ -171,9 +176,6 @@
     }
 }
 
-
-
-
 @media (max-width:720px) {
 
     .content-block {
@@ -195,6 +197,10 @@
     .tabs>label:hover {
        padding-left: 10px;
        padding-right: 10px;
+    }
+
+    form {
+        width: 386px;
     }
 }
 
@@ -228,6 +234,10 @@
     .resorts {
         margin-left: 35px;
     }
+
+    .auth > form {
+        width: 305px;
+    }
 }
 
 @media (max-width:550px) {
@@ -246,6 +256,10 @@
     .nav-item {
         margin: 10px;
     }
+
+    .auth > form {
+        width: 305px;
+    }
 }
 
 
@@ -254,8 +268,6 @@
         margin-left: 3px;
     }
 }
-
-
 
 @media (max-width:490px) { 
 

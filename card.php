@@ -2,6 +2,12 @@
 <?php require 'sidebar.php'; ?>
 <div class="card">
     <div class="card-block">
+        <?php
+
+        $cities = get_cities();
+
+        foreach ($cities as $city): ?>
+
         <img src="" alt="">
         <div class="card-title">
 
@@ -9,7 +15,8 @@
         <div class="card-info">
 
         </div>
-    </div>
+        <?php endforeach; ?>
+        </div>
     <div class="card-block">
         <div class="map">
             <div class="m-s">
@@ -19,6 +26,7 @@
             <a href="https://yandex.kz/maps/-/CCUs6PHYxA" class="m-btn">Показать на карте</a>
         </div>
         <div class="ticket"><a href="" class="t-btn"></a></div>
+        
     </div>
 </div>   
 <?php require 'footer.php'; ?>

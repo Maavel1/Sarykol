@@ -466,11 +466,11 @@ a{
 
 }
 .res-card {
-
+  position: relative;
   width: 300px;
   height: 500px;
   border-radius: 50px;
-
+  text-align: left;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -484,11 +484,80 @@ a{
 
 }
 
-.res-card:hover{
-  transform: scale(1.05);
+.res-card > span {
+  font-size: 13px;
 }
 
+.res-card:hover{
+  transition: all 0.4s ease;
+  transform: scale(1.05);
+ 
+}
+
+.block_card {
+  transition: all 0.4s ease;
+  display: none;
+}
+
+.res-card img:hover {
+  transition: all 0.4s ease;
+  filter: brightness(45%) blur(3px);
+}
+
+.description-card {
+  transition: all 0.4s ease;
+  position: absolute;
+  top: 21%;
+  display: none;
+  color: #e7e7e7;
+}
+
+.description-card-2 {
+  transition: all 0.4s ease;
+  position: absolute;
+  top: 28%;
+  left: 5%;
+  display: none;
+  color: #e7e7e7;
+}
+
+.description-card-3 {
+  transition: all 0.4s ease;
+  position: absolute;
+  top: 34%;
+  left: 5%;
+  display: none;
+  color: #e7e7e7;
+}
+
+.description-card-4 {
+  transition: all 0.4s ease;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  display: none;
+  color: #e7e7e7;
+}
+.description-card-5 {
+  transition: all 0.4s ease;
+  position: absolute;
+  top: 46%;
+  left: 5%;
+  display: none;
+  color: #e7e7e7;
+}
+
+
+.res-card:hover  .description-card, .res-card:hover .description-card-2 , .res-card:hover .description-card-3 , .res-card:hover .description-card-4 , .res-card:hover .description-card-5 {
+  transition: all 2s ease;
+  display: block;
+  pointer-events: none;
+}
+
+
+
 .res-card img{
+  transition: all 0.4s ease;
   height: 400px;
   width: 304px;
   border-radius: 50px;

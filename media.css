@@ -367,7 +367,10 @@
     
     @media (max-width:416px) {
         .resorts {
-            margin-left: -56px;
+                padding: 16px;
+        }
+        .quest-view {
+            padding: 16px;
         }
     }
     

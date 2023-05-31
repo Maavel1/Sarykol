@@ -560,12 +560,21 @@ a{
 
 .btn_card {
   position: absolute;
-  top: 70%;
-  display: none;
+  top: 59%;
+  left: 33%;
   color: #ffffff;
+  display: none;
   background-color: #f46d25;
   padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+  border-style: none;
+  transition: all 0.4s ease;
 }
+
+
 
 
 .res-card img{

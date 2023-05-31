@@ -814,11 +814,32 @@ border-radius: 50px; /* CSS3 */
 .cq1-task{
   margin-top: 100px;
   display: flex;
-  justify-content: space-around
+  justify-content: space-between;
+  align-items: center;
+  
 }
 .cq1-task img{
   height: 30px;
   border: #f46d25 solid 2px;
   border-radius: 30px;
 
+
+}
+.back-btn{
+ margin-right: 500px;
+ text-decoration: none;
+}
+.back-btn a{
+  font-weight: 800 ;
+  padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  background: #34374d;
+}
+
+.back-btn a:hover{
+  background: #f46d25;
 }

@@ -203,6 +203,18 @@ a{
 .sidenav a:hover{
   background: #34374d;
 }
+
+.sidenav a.sidenav-web{
+  background: #f46d25;
+  transition: 2s;
+}
+.sidenav a.sidenav-web:hover{
+  background: #34374d;
+  transition: 2s;
+  transform: scale(1.05);
+}
+
+
 .sidenav img{
   height: 30px;
   display: flex;

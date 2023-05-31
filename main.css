@@ -546,11 +546,20 @@ border-radius: 50px; /* CSS3 */
   text-align: center;
 }
 .quest-txt {
+  margin-top: 50px;
+  
   display: flex;
   justify-content: center;
   font-size: 25px;
   color: #fff;
 }
+.quest-txt img{
+  padding-right: 30px;
+  height: 30px;
+  width: 30px;
+  
+}
+
 .quest-btn{
   margin-top: 100px;
 }
@@ -614,4 +623,16 @@ border-radius: 50px; /* CSS3 */
   
   font-size: 35px;
   margin-top: 100px;
+}
+.dev{
+  position: relative;
+}
+.dev img{
+  filter: blur(6px) brightness(30%);
+}
+.dev > span{
+  color: #f46d25;
+  position: absolute;
+  top: 40%;
+  display: block;
 }

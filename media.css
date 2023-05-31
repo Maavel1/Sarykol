@@ -115,6 +115,7 @@
 @media (max-width:1064px) {
     .tabs {
         margin-left: 0;
+        padding-top: 30px;
     }
 
     .header {

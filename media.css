@@ -172,6 +172,10 @@
     .quest {
         margin-top: 138px;
     }
+
+    .culture {
+        grid-template-columns: 73%;
+    }
 }
 
 @media (max-width:866px) {
@@ -186,6 +190,10 @@
        
         margin-left: -31px;
     }
+
+    .culture {
+        grid-template-columns: 87%;
+    }
 }
 
 @media (max-width:762px) {
@@ -196,6 +204,10 @@
     .quest-view {
         display: block;
         padding: 200px;
+    }
+
+    .culture {
+        grid-template-columns: 101%;
     }
 }
 
@@ -229,12 +241,23 @@
     .quest-view {
         padding: 150px;
     }
+
+    .view {
+        margin-top: 51px;
+    }
+
+    .quest-txt {
+        font-size: 27px;
+    }
 }
 
 @media (max-width:684px) {
     .resorts {
 
         margin-left: 93px;
+    }
+    .culture {
+        grid-template-columns: 108%;
     }
 }
 
@@ -265,7 +288,9 @@
     .quest-view {
         padding: 125px;
     }
-
+    .culture {
+        grid-template-columns: 117%;
+    }
 }
 
 @media (max-width:606px) {
@@ -280,6 +305,10 @@
     
     .quest-view {
         padding: 118px;
+    }
+
+    .culture {
+        grid-template-columns: 130%;
     }
 }
 
@@ -307,6 +336,9 @@
     .quest-view {
         padding: 110px;
     }
+    .culture {
+        grid-template-columns: 143%;
+    }
 }
 
 
@@ -316,6 +348,10 @@
     }
     .quest-view {
         padding: 49px;
+    }
+
+    .culture {
+        grid-template-columns: 161%;
     }
 }
 
@@ -332,7 +368,7 @@
         font-size: 33px;
      }
      .quest-txt {
-        font-size: 18px;
+        font-size: 24px;
      }
 
 
@@ -363,6 +399,10 @@
      .quest-view {
         padding: 16px;
     }
+
+    .culture {
+        grid-template-columns: 225%;
+    }
     }
     
     @media (max-width:416px) {
@@ -371,6 +411,9 @@
         }
         .quest-view {
             padding: 25px;
+        }
+        .culture {
+            grid-template-columns: 232%;
         }
     }
     

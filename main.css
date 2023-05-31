@@ -636,3 +636,49 @@ border-radius: 50px; /* CSS3 */
   top: 40%;
   display: block;
 }
+
+
+/* Culture quest */
+
+.q-check{
+  width: 300px;
+  height: 300px;
+  background: #34374d;
+  border-radius: 300px;
+}
+.culture {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  
+
+  color: #fff;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 20% 20% 20%;
+  grid-gap: 0px 150px;
+}
+.culture-card {
+  width: 300px;
+
+  border-radius: 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 30px;
+  
+  overflow: hidden;
+  transition: 1s;
+  color: #fff;
+
+  text-decoration: none;
+
+}
+.culture:hover{
+  transform: scale(1.05);
+}
+.culture-title {
+}

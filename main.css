@@ -774,3 +774,42 @@ border-radius: 50px; /* CSS3 */
 }
 .culture-title {
 }
+
+/* Culture First Quest */
+
+.cq1{
+  margin-top: 100px;
+  justify-content: normal;
+  align-items: flex-start;
+  padding-top: 50px;
+  text-align: left;
+  margin-right: 100px;
+  margin-left: 100px;
+  
+}
+.cq1-ttl{
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-size: 40px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+.cq1-txt{
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin-left: 100px;
+  text-align: left;
+}
+.cq1-task{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around
+}
+.cq1-task img{
+  height: 30px;
+  border: #f46d25 solid 2px;
+  border-radius: 30px;
+
+}

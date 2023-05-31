@@ -677,7 +677,7 @@ border-radius: 50px; /* CSS3 */
   text-decoration: none;
 
 }
-.culture:hover{
+.culture-card:hover{
   transform: scale(1.05);
 }
 .culture-title {

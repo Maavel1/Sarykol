@@ -340,6 +340,13 @@
         .resorts {
             margin-left: -74px;
         }
+
+        .quest-title {
+            font-size: 30px;
+         }
+         .quest-txt {
+            font-size: 17px;
+         }
     }
 
 

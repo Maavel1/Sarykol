@@ -166,7 +166,7 @@ a{
 }
 
 
-form {
+.auth >form {
   height: 414px;
 }
 

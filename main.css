@@ -548,12 +548,21 @@ a{
 }
 
 
-.res-card:hover  .description-card, .res-card:hover .description-card-2 , .res-card:hover .description-card-3 , .res-card:hover .description-card-4 , .res-card:hover .description-card-5 {
+.res-card:hover  .description-card, .res-card:hover .description-card-2 , .res-card:hover .description-card-3 , .res-card:hover .description-card-4 , .res-card:hover .description-card-5 , .res-card:hover .btn_card {
   transition: all 2s ease;
   display: block;
   pointer-events: none;
 }
 
+
+.btn_card {
+  position: absolute;
+  top: 70%;
+  display: none;
+  color: #ffffff;
+  background-color: #f46d25;
+  padding: 10px 10px 10px 10px;
+}
 
 
 .res-card img{

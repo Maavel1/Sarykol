@@ -154,6 +154,10 @@
        
         margin-left: 47px;
     }
+
+    .quest {
+        margin-top: 138px;
+    }
 }
 
 @media (max-width:866px) {
@@ -228,6 +232,13 @@
     .content-block {
         border-radius: 38px;
     }
+    .quest-title {
+        font-size: 39px;
+    }
+
+    .quest-txt {
+        font-size: 22px;
+    }
 
 }
 
@@ -279,7 +290,13 @@
      .tabs>label {
         font-size: 13px;
      }
-    
+     .quest-title {
+        font-size: 33px;
+     }
+     .quest-txt {
+        font-size: 18px;
+     }
+}
 
      @media (max-width:460px) {
         .resorts {
@@ -288,7 +305,7 @@
     }
     
   
-}
+
 
 @media (max-width:450px) { 
     .tabs>label:hover {
@@ -323,6 +340,13 @@
         .resorts {
             margin-left: -74px;
         }
+
+        .quest-title {
+            font-size: 30px;
+         }
+         .quest-txt {
+            font-size: 17px;
+         }
     }
 
 

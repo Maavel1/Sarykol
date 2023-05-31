@@ -30,6 +30,8 @@ a{
     top: 0;
 }
 
+
+
 /* Burger */
 
 .img-home-sidebar {
@@ -163,6 +165,10 @@ a{
   height: 40px;
 }
 
+
+.auth >form {
+  height: 414px;
+}
 
 /* Left panel */
 

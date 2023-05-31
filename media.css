@@ -399,6 +399,10 @@
      .quest-view {
         padding: 16px;
     }
+
+    .culture {
+        grid-template-columns: 225%;
+    }
     }
     
     @media (max-width:416px) {
@@ -407,6 +411,9 @@
         }
         .quest-view {
             padding: 25px;
+        }
+        .culture {
+            grid-template-columns: 232%;
         }
     }
     

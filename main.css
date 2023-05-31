@@ -843,3 +843,69 @@ border-radius: 50px; /* CSS3 */
 .back-btn a:hover{
   background: #f46d25;
 }
+
+
+
+
+
+
+/* Culture Second Quest */
+
+
+ 
+.input__file {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  border-radius: 50px;
+}
+ 
+.input__file-icon-wrapper {
+  height: 60px;
+  width: 60px;
+  margin-right: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  
+  border-radius: 50px;
+}
+ 
+.input__file-button-text {
+  line-height: 1;
+  margin-top: 1px;
+  border-radius: 50px;
+}
+ 
+.input__file-button {
+  width: 100%;
+  max-width: 290px;
+  height: 60px;
+  background:#f46d25;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 50px;
+}
+img.input__file-icon{
+  border: 0;
+}
